@@ -1,7 +1,8 @@
 .movie {
   background-color:rgba(51, 43, 163, 0.883);
   margin: 1rem;
-  width: 260px;  
+  width: 260px; 
+  height: auto; 
   border-radius: 3px; 
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -12,7 +13,7 @@
 .movie img {
   object-fit: cover;
   width: 100%;
-  height: fit-content;
+  height: auto;
 }
 .movie_info {
     display: flex;
@@ -22,6 +23,7 @@
 }
 .movie_info h3 {
    margin: 0; 
+   font-size: 1rem;
 }
 
 .movie_overview {
