@@ -35,7 +35,7 @@ header h1 {
   border: 2px solid rgb(255, 249, 249);
   border-radius: 50px;
   background-color: transparent;
-  color: rgba(255, 249, 249, 0.849);   
+  color: rgb(214, 207, 207);   
   padding: 0.5rem 1.5rem;
 }
 .search:focus {
