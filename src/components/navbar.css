@@ -1,13 +1,13 @@
 
 .logo {
     text-transform: uppercase;
-    font-size: 1.5rem;
-    font-weight: 600;
+    font-size: 2rem;
+    font-weight: 900;
     padding-left: 2rem;
     color:rgba(255, 255, 255, 0.918) !important;
 }
 .logo span {
-    color: rgba(221, 14, 48, 0.89);
+    color: rgba(95, 1, 1, 0.685);
 }
 
 .navbar {

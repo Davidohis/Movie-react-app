@@ -42,19 +42,19 @@ function MovieApp() {
   return (
   <>
   <header>
-     <h1>Movie App</h1>  
     <form onSubmit={handleOnSubmit}>
       <input
         type="search"
         className="search"
-        placeholder="Search..."
+        placeholder="Search for movies..."
         value={searchTerm}
         onChange={handleOnChange}
       />
+       <input title="Search" value="" type="submit" class="button" onChange={handleOnChange}/>
     </form>
     </header>
     <div className="movie_container">
-      {movies.length > 0 && movies.map((movies) => 
+      {movies.length > 0 && movies.slice(0, 8).map((movies) => 
         <Movie key={movies.id} {...movies} />
       )}
     </div>

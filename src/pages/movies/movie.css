@@ -1,5 +1,5 @@
 .movie {
-  background-color:rgba(51, 43, 163, 0.883);
+  background-color:rgba(95, 1, 1, 0.685);
   margin: 1rem;
   width: 260px; 
   height: auto; 
@@ -32,7 +32,7 @@
    left: 0;
    right: 0;
    background-color: whitesmoke;
-   color: rgba(58, 52, 149, 0.787);
+   color: rgba(95, 1, 1, 0.685);
    font-weight: 600;
    padding: 1rem;
    transform: translateY(102%);
@@ -63,3 +63,4 @@
 .tag.red {
     color: red;
 }
+
