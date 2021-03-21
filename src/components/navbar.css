@@ -1,0 +1,21 @@
+
+.logo {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-left: 2rem;
+    color:rgba(255, 255, 255, 0.918) !important;
+}
+.logo span {
+    color: rgba(221, 14, 48, 0.89);
+}
+
+.navbar {
+    height: 90px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    z-index: 997;
+}
