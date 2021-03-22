@@ -115,13 +115,11 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     color: rgba(95, 1, 1, 0.685);
 }
 
-.new_footer_top .f_social_icon a:hover {
-    background: rgba(95, 1, 1, 0.685);
+.new_footer_top .f_social_icon li:hover {
     border-color: rgba(95, 1, 1, 0.685);
-  color:white;
 }
-.new_footer_top .f_social_icon a + a {
-    margin-left: 4px;
+.new_footer_top .f_social_icon li  {
+    margin-left: 10px;
 }
 .new_footer_top .f-title {
     margin-bottom: 30px;
@@ -136,7 +134,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 h1, h2, h3, h4, h5, h6 {
     color: #4b505e;
 }
-.new_footer_top .f_widget.about-widget .f_list li a {
+.new_footer_top .f_widget.about-widget .f_list li  {
     color: #6a7695;
 }
 

@@ -22,8 +22,8 @@ export default function FooterComponent() {
                             <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style={{visibility: "visible", animationDelay: "0.4s", animationName: "fadeInLeft"}}>
                                 <h3 class="f-title f_600 t_color f_size_18">Download</h3>
                                 <ul class="list-unstyled f_list">
-                                    <li><a href="#">Android App</a></li>
-                                    <li><a href="#">ios App</a></li>
+                                    <li>Android App</li>
+                                    <li>ios App</li>
                                 </ul>
                             </div>
                         </div>
@@ -31,8 +31,8 @@ export default function FooterComponent() {
                             <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style={{visibility: "visible", animationDelay: "0.6s", animationName: "fadeInLeft"}}>
                                 <h3 class="f-title f_600 t_color f_size_18">Help</h3>
                                 <ul class="list-unstyled f_list">
-                                    <li><a href="#">Term &amp; conditions</a></li>
-                                    <li><a href="#">Privacy</a></li>
+                                    <li>Term &amp; conditions</li>
+                                    <li>Privacy</li>
                                 </ul>
                             </div>
                         </div>
@@ -40,10 +40,10 @@ export default function FooterComponent() {
                             <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s">
                                 <h3 class="f-title f_600 t_color f_size_18">Team Solutions</h3>
                                 <div class="f_social_icon">
-                                    <a href="#" class="fab fa-facebook"></a>
-                                    <a href="#" class="fab fa-twitter"></a>
-                                    <a href="#" class="fab fa-linkedin"></a>
-                                    <a href="#" class="fab fa-pinterest"></a>
+                                    <li class="fab fa-facebook"></li>
+                                    <li class="fab fa-twitter"></li>
+                                    <li class="fab fa-linkedin"></li>
+                                    <li href="/" class="fab fa-pinterest"></li>
                                 </div>
                             </div>
                         </div>
